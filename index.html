@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Reviews</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+    <div class="container">
+        <h1>Movie Reviews</h1>
+        <div id="movieReviewsContainer" class="movie-review-container">
+            <label for="">MOVIE TITLE</label>
+        <input type="text" placeholder="Enter a movie title" id="titleInput" class="title-input">
+        <label for="">YOUR REVIEW</label>
+        <textarea rows="6"  id="reviewTextarea" class="review-textarea" placeholder="Enter your review"></textarea>
+        </div>
+        <div class="review-button-container">
+            <button id="addBtn" class="add-Btn">Add</button>
+        </div>
+        <div class="reviews-container" id="reviewsContainer">
+
+        </div>
+        <button onclick="normalBtn()" class="normalBtn"></button>
+    </div>
+
+</center>
+    <script src="./index.js"></script>
+</body>
+</html>
